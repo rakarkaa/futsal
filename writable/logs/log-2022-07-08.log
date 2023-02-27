@@ -1,0 +1,3 @@
+CRITICAL - 2022-07-08 03:07:29 --> Cannot redeclare App\Controllers\User::psewa()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

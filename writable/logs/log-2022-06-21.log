@@ -1,0 +1,26 @@
+ERROR - 2022-06-21 08:40:31 --> Unknown column 'kd_lapangan' in 'field list'
+CRITICAL - 2022-06-21 08:40:31 --> Unknown column 'kd_lapangan' in 'field list'
+#0 C:\xampp\htdocs\Futsal\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\Futsal\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\Futsal\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\Futsal\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\Futsal\app\Models\Model_LR.php(10): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Futsal\app\Controllers\User.php(44): App\Models\Model_LR->savedata(Array)
+#6 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\User->psewa()
+#7 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-06-21 08:44:12 --> Unknown column 'kd_lapangan' in 'field list'
+CRITICAL - 2022-06-21 08:44:12 --> Unknown column 'kd_lapangan' in 'field list'
+#0 C:\xampp\htdocs\Futsal\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\Futsal\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\Futsal\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\Futsal\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\Futsal\app\Models\Model_LR.php(13): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Futsal\app\Controllers\User.php(44): App\Models\Model_LR->savedatasewa(Array)
+#6 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\User->psewa()
+#7 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

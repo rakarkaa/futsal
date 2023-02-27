@@ -1,0 +1,9 @@
+CRITICAL - 2022-05-17 19:03:46 --> Invalid file: lanjut.php
+#0 C:\xampp7\htdocs\Futsal\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('lanjut.php')
+#1 C:\xampp7\htdocs\Futsal\system\Common.php(1089): CodeIgniter\View\View->render('lanjut.php', Array, true)
+#2 C:\xampp7\htdocs\Futsal\app\Controllers\Controller.php(21): view('lanjut.php')
+#3 C:\xampp7\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\Controller->send()
+#4 C:\xampp7\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controller))
+#5 C:\xampp7\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp7\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

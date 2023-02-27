@@ -1,0 +1,108 @@
+CRITICAL - 2022-07-09 07:00:31 --> syntax error, unexpected token "public", expecting end of file
+#0 D:\Xampp 8.0\htdocs\Futsal\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('user/js/script....')
+#1 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('user/js/script....')
+#2 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-09 07:00:53 --> Function strftime() is deprecated
+#0 D:\Xampp 8.0\htdocs\Futsal\app\Views\Admin\index.php(145): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Function strfti...', 'D:\\Xampp 8.0\\ht...', 145)
+#1 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(210): include('D:\\Xampp 8.0\\ht...')
+#2 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Xampp 8.0\htdocs\Futsal\system\Common.php(1089): CodeIgniter\View\View->render('Admin/index', Array, true)
+#4 D:\Xampp 8.0\htdocs\Futsal\app\Controllers\Admin.php(24): view('Admin/index', Array)
+#5 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#6 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-09 07:01:41 --> Call to undefined function strtime()
+#0 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(210): include()
+#1 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Xampp 8.0\htdocs\Futsal\system\Common.php(1089): CodeIgniter\View\View->render('Admin/index', Array, true)
+#3 D:\Xampp 8.0\htdocs\Futsal\app\Controllers\Admin.php(24): view('Admin/index', Array)
+#4 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#5 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-09 07:01:54 --> Function strftime() is deprecated
+#0 D:\Xampp 8.0\htdocs\Futsal\app\Views\Admin\index.php(145): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Function strfti...', 'D:\\Xampp 8.0\\ht...', 145)
+#1 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(210): include('D:\\Xampp 8.0\\ht...')
+#2 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Xampp 8.0\htdocs\Futsal\system\Common.php(1089): CodeIgniter\View\View->render('Admin/index', Array, true)
+#4 D:\Xampp 8.0\htdocs\Futsal\app\Controllers\Admin.php(24): view('Admin/index', Array)
+#5 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#6 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-09 07:24:39 --> syntax error, unexpected integer "2022", expecting ")"
+#0 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\Xampp 8.0\htdocs\Futsal\system\Common.php(1089): CodeIgniter\View\View->render('Admin/index', Array, true)
+#2 D:\Xampp 8.0\htdocs\Futsal\app\Controllers\Admin.php(24): view('Admin/index', Array)
+#3 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#4 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-09 07:40:37 --> syntax error, unexpected token "public", expecting end of file
+#0 D:\Xampp 8.0\htdocs\Futsal\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('user/js/script....')
+#1 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('user/js/script....')
+#2 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-09 07:43:36 --> syntax error, unexpected token "public", expecting end of file
+#0 D:\Xampp 8.0\htdocs\Futsal\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('user/js/script....')
+#1 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('user/js/script....')
+#2 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-09 07:44:43 --> syntax error, unexpected token "public", expecting end of file
+#0 D:\Xampp 8.0\htdocs\Futsal\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('User/index')
+#1 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('User/index')
+#2 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-09 07:47:34 --> syntax error, unexpected token "public", expecting end of file
+#0 D:\Xampp 8.0\htdocs\Futsal\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('user/js/script....')
+#1 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('user/js/script....')
+#2 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-09 07:47:47 --> syntax error, unexpected token "public", expecting end of file
+#0 D:\Xampp 8.0\htdocs\Futsal\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('User/index')
+#1 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('User/index')
+#2 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-09 07:47:59 --> syntax error, unexpected token "public", expecting end of file
+#0 D:\Xampp 8.0\htdocs\Futsal\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('User/index')
+#1 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('User/index')
+#2 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-09 07:51:18 --> syntax error, unexpected token "public", expecting end of file
+#0 D:\Xampp 8.0\htdocs\Futsal\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('User/index')
+#1 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('User/index')
+#2 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-09 21:26:50 --> Undefined variable $p
+#0 D:\Xampp 8.0\htdocs\Futsal\app\Views\Admin\laporan.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Xampp 8.0\\ht...', 86)
+#1 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(210): include('D:\\Xampp 8.0\\ht...')
+#2 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Xampp 8.0\htdocs\Futsal\system\Common.php(1089): CodeIgniter\View\View->render('Admin/laporan', Array, true)
+#4 D:\Xampp 8.0\htdocs\Futsal\app\Controllers\Admin.php(150): view('Admin/laporan', Array)
+#5 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\Admin->genlaporan()
+#6 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

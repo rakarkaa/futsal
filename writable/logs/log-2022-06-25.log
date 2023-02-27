@@ -1,0 +1,34 @@
+CRITICAL - 2022-06-25 21:58:07 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\Futsal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Futsal\system\Common.php(1089): CodeIgniter\View\View->render('Admin/vedituser', Array, true)
+#2 C:\xampp\htdocs\Futsal\app\Controllers\Admin.php(85): view('Admin/vedituser', Array)
+#3 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\Admin->vedituser('as')
+#4 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-25 22:21:57 --> Undefined variable: sewa
+#0 C:\xampp\htdocs\Futsal\app\Views\Admin\daftaruser.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\Futsal\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Futsal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Futsal\system\Common.php(1089): CodeIgniter\View\View->render('Admin/daftaruse...', Array, true)
+#4 C:\xampp\htdocs\Futsal\app\Controllers\Admin.php(108): view('Admin/daftaruse...')
+#5 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\Admin->p_edituser()
+#6 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-25 22:41:28 --> syntax error, unexpected ')', expecting ']'
+#0 C:\xampp\htdocs\Futsal\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('LogReg/p_login')
+#1 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('LogReg/p_login')
+#2 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-25 22:49:14 --> syntax error, unexpected ')', expecting ']'
+#0 C:\xampp\htdocs\Futsal\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('LogReg/p_login')
+#1 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('LogReg/p_login')
+#2 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

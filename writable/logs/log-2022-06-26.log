@@ -1,0 +1,11 @@
+CRITICAL - 2022-06-26 02:53:30 --> Undefined property: CodeIgniter\View\View::$session
+#0 D:\Xampp 8.0\htdocs\Futsal\app\Views\User\vsewa.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Xampp 8.0\\ht...', 54)
+#1 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(210): include('D:\\Xampp 8.0\\ht...')
+#2 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Xampp 8.0\htdocs\Futsal\system\Common.php(1089): CodeIgniter\View\View->render('User/vsewa', Array, true)
+#4 D:\Xampp 8.0\htdocs\Futsal\app\Controllers\User.php(22): view('User/vsewa')
+#5 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\User->vsewa()
+#6 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

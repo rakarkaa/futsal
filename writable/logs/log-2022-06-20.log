@@ -1,0 +1,157 @@
+CRITICAL - 2022-06-20 16:37:27 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\Futsal\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\Futsal\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-06-20 16:40:48 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\Futsal\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\Futsal\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-06-20 16:40:50 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\Futsal\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\Futsal\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-06-20 16:40:52 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\Futsal\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\Futsal\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-06-20 16:40:53 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\Futsal\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\Futsal\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-06-20 16:41:29 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\Futsal\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\Futsal\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-06-20 16:41:37 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\Futsal\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\Futsal\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-06-20 10:00:18 --> Undefined property: stdClass::$no_daftar
+#0 C:\xampp\htdocs\Futsal\app\Controllers\LogReg.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\LogReg->p_login()
+#2 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LogReg))
+#3 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-20 10:38:28 --> syntax error, unexpected '}'
+#0 C:\xampp\htdocs\Futsal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Futsal\system\Common.php(1089): CodeIgniter\View\View->render('Admin/index', Array, true)
+#2 C:\xampp\htdocs\Futsal\app\Controllers\Admin.php(11): view('Admin/index')
+#3 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#4 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-20 10:38:51 --> Array to string conversion
+#0 C:\xampp\htdocs\Futsal\app\Views\Admin\index.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\Futsal\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Futsal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Futsal\system\Common.php(1089): CodeIgniter\View\View->render('Admin/index', Array, true)
+#4 C:\xampp\htdocs\Futsal\app\Controllers\Admin.php(11): view('Admin/index')
+#5 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#6 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-20 21:11:06 --> Table 'futsal.pembayaran' doesn't exist
+CRITICAL - 2022-06-20 21:11:06 --> Table 'futsal.pembayaran' doesn't exist
+#0 C:\xampp\htdocs\Futsal\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Futsal\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Futsal\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Futsal\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Futsal\app\Models\Model_LR.php(30): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 C:\xampp\htdocs\Futsal\app\Controllers\Admin.php(23): App\Models\Model_LR->getdata()
+#6 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#7 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-06-20 21:14:53 --> Unknown column 'level' in 'where clause'
+CRITICAL - 2022-06-20 21:14:53 --> Unknown column 'level' in 'where clause'
+#0 C:\xampp\htdocs\Futsal\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Futsal\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Futsal\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Futsal\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Futsal\app\Models\Model_LR.php(30): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 C:\xampp\htdocs\Futsal\app\Controllers\Admin.php(23): App\Models\Model_LR->getdata()
+#6 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#7 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-20 21:18:02 --> Undefined variable: data
+#0 C:\xampp\htdocs\Futsal\app\Views\Admin\index.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\Futsal\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Futsal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Futsal\system\Common.php(1089): CodeIgniter\View\View->render('Admin/index', Array, true)
+#4 C:\xampp\htdocs\Futsal\app\Controllers\Admin.php(24): view('Admin/index', Array)
+#5 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#6 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-20 21:18:21 --> Undefined variable: data
+#0 C:\xampp\htdocs\Futsal\app\Views\Admin\index.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\Futsal\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Futsal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Futsal\system\Common.php(1089): CodeIgniter\View\View->render('Admin/index', Array, true)
+#4 C:\xampp\htdocs\Futsal\app\Controllers\Admin.php(24): view('Admin/index', Array)
+#5 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#6 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-20 21:18:59 --> Undefined property: stdClass::$nama_lengkap
+#0 C:\xampp\htdocs\Futsal\app\Views\Admin\index.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\Futsal\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Futsal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Futsal\system\Common.php(1089): CodeIgniter\View\View->render('Admin/index', Array, true)
+#4 C:\xampp\htdocs\Futsal\app\Controllers\Admin.php(24): view('Admin/index', Array)
+#5 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#6 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-20 21:19:02 --> Undefined property: stdClass::$nama_lengkap
+#0 C:\xampp\htdocs\Futsal\app\Views\Admin\index.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\Futsal\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Futsal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Futsal\system\Common.php(1089): CodeIgniter\View\View->render('Admin/index', Array, true)
+#4 C:\xampp\htdocs\Futsal\app\Controllers\Admin.php(24): view('Admin/index', Array)
+#5 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#6 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-20 21:24:51 --> Undefined property: stdClass::$kdsewa
+#0 C:\xampp\htdocs\Futsal\app\Views\Admin\index.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\Futsal\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Futsal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Futsal\system\Common.php(1089): CodeIgniter\View\View->render('Admin/index', Array, true)
+#4 C:\xampp\htdocs\Futsal\app\Controllers\Admin.php(24): view('Admin/index', Array)
+#5 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#6 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-20 22:11:14 --> syntax error, unexpected '$data_filter' (T_VARIABLE)
+#0 C:\xampp\htdocs\Futsal\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Admin/index')
+#1 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Admin/index')
+#2 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

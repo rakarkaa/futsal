@@ -1,0 +1,47 @@
+CRITICAL - 2022-03-07 20:09:04 --> Invalid file: dashboard.php
+#0 C:\xampp7\htdocs\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp7\htdocs\ci4\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp7\htdocs\ci4\app\Controllers\Dashboard.php(10): view('dashboard')
+#3 C:\xampp7\htdocs\ci4\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#4 C:\xampp7\htdocs\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp7\htdocs\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp7\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-07 20:09:06 --> Invalid file: dashboard.php
+#0 C:\xampp7\htdocs\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp7\htdocs\ci4\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp7\htdocs\ci4\app\Controllers\Dashboard.php(10): view('dashboard')
+#3 C:\xampp7\htdocs\ci4\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#4 C:\xampp7\htdocs\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp7\htdocs\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp7\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-07 20:09:10 --> Invalid file: dashboard.php
+#0 C:\xampp7\htdocs\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp7\htdocs\ci4\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp7\htdocs\ci4\app\Controllers\Dashboard.php(10): view('dashboard')
+#3 C:\xampp7\htdocs\ci4\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#4 C:\xampp7\htdocs\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp7\htdocs\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp7\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-07 21:57:27 --> Invalid file: templat/template.php
+#0 C:\xampp7\htdocs\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templat/templat...')
+#1 C:\xampp7\htdocs\ci4\system\View\View.php(226): CodeIgniter\View\View->render('templat/templat...', Array, true)
+#2 C:\xampp7\htdocs\ci4\system\Common.php(1089): CodeIgniter\View\View->render('Dashboard/home', Array, true)
+#3 C:\xampp7\htdocs\ci4\app\Controllers\Dashboard.php(10): view('Dashboard/home')
+#4 C:\xampp7\htdocs\ci4\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#5 C:\xampp7\htdocs\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp7\htdocs\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp7\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-07 21:57:28 --> Invalid file: templat/template.php
+#0 C:\xampp7\htdocs\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templat/templat...')
+#1 C:\xampp7\htdocs\ci4\system\View\View.php(226): CodeIgniter\View\View->render('templat/templat...', Array, true)
+#2 C:\xampp7\htdocs\ci4\system\Common.php(1089): CodeIgniter\View\View->render('Dashboard/home', Array, true)
+#3 C:\xampp7\htdocs\ci4\app\Controllers\Dashboard.php(10): view('Dashboard/home')
+#4 C:\xampp7\htdocs\ci4\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#5 C:\xampp7\htdocs\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp7\htdocs\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp7\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

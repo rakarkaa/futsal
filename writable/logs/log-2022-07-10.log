@@ -1,0 +1,56 @@
+CRITICAL - 2022-07-10 11:24:26 --> md5(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'md5(): Passing ...', 'D:\\Xampp 8.0\\ht...', 85)
+#1 D:\Xampp 8.0\htdocs\Futsal\app\Controllers\User.php(85): md5(NULL)
+#2 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\User->changepw('assets', 'img', 'close-icon.svg')
+#3 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-10 11:24:26 --> md5(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'md5(): Passing ...', 'D:\\Xampp 8.0\\ht...', 85)
+#1 D:\Xampp 8.0\htdocs\Futsal\app\Controllers\User.php(85): md5(NULL)
+#2 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\User->changepw('assets', 'img', 'portfolio', '5.jpg')
+#3 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-10 11:24:26 --> md5(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'md5(): Passing ...', 'D:\\Xampp 8.0\\ht...', 85)
+#1 D:\Xampp 8.0\htdocs\Futsal\app\Controllers\User.php(85): md5(NULL)
+#2 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\User->changepw('assets', 'img', 'portfolio', '1.jpg')
+#3 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-10 11:24:27 --> md5(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'md5(): Passing ...', 'D:\\Xampp 8.0\\ht...', 85)
+#1 D:\Xampp 8.0\htdocs\Futsal\app\Controllers\User.php(85): md5(NULL)
+#2 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\User->changepw('assets', 'img', 'portfolio', '2.jpg')
+#3 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-10 11:24:27 --> md5(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'md5(): Passing ...', 'D:\\Xampp 8.0\\ht...', 85)
+#1 D:\Xampp 8.0\htdocs\Futsal\app\Controllers\User.php(85): md5(NULL)
+#2 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\User->changepw('assets', 'img', 'portfolio', '3.jpg')
+#3 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-10 11:24:28 --> md5(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'md5(): Passing ...', 'D:\\Xampp 8.0\\ht...', 85)
+#1 D:\Xampp 8.0\htdocs\Futsal\app\Controllers\User.php(85): md5(NULL)
+#2 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\User->changepw('assets', 'img', 'portfolio', '4.jpg')
+#3 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-10 11:24:28 --> md5(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'md5(): Passing ...', 'D:\\Xampp 8.0\\ht...', 85)
+#1 D:\Xampp 8.0\htdocs\Futsal\app\Controllers\User.php(85): md5(NULL)
+#2 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\User->changepw('assets', 'img', 'portfolio', '6.jpg')
+#3 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

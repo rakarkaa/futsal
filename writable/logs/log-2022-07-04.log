@@ -1,0 +1,397 @@
+ERROR - 2022-07-04 01:13:43 --> Unknown column 'lap' in 'field list'
+CRITICAL - 2022-07-04 01:13:43 --> Unknown column 'lap' in 'field list'
+#0 D:\Xampp 8.0\htdocs\Futsal\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `la...', 0)
+#1 D:\Xampp 8.0\htdocs\Futsal\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `la...')
+#2 D:\Xampp 8.0\htdocs\Futsal\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `la...')
+#3 D:\Xampp 8.0\htdocs\Futsal\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `la...', Array, false)
+#4 D:\Xampp 8.0\htdocs\Futsal\app\Models\Model_LR.php(22): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Xampp 8.0\htdocs\Futsal\app\Controllers\Admin.php(56): App\Models\Model_LR->savedatalapangan(Array)
+#6 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\Admin->tambahlapangan()
+#7 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-04 01:16:14 --> Undefined variable $sewa
+#0 D:\Xampp 8.0\htdocs\Futsal\app\Views\Admin\index.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Xampp 8.0\\ht...', 160)
+#1 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(210): include('D:\\Xampp 8.0\\ht...')
+#2 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Xampp 8.0\htdocs\Futsal\system\Common.php(1089): CodeIgniter\View\View->render('Admin/index', Array, true)
+#4 D:\Xampp 8.0\htdocs\Futsal\app\Controllers\Admin.php(57): view('Admin/index')
+#5 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\Admin->tambahlapangan()
+#6 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-04 01:16:34 --> Undefined variable $sewa
+#0 D:\Xampp 8.0\htdocs\Futsal\app\Views\Admin\index.php(160): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Xampp 8.0\\ht...', 160)
+#1 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(210): include('D:\\Xampp 8.0\\ht...')
+#2 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Xampp 8.0\htdocs\Futsal\system\Common.php(1089): CodeIgniter\View\View->render('Admin/index', Array, true)
+#4 D:\Xampp 8.0\htdocs\Futsal\app\Controllers\Admin.php(57): view('Admin/index')
+#5 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\Admin->tambahlapangan()
+#6 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-04 01:31:00 --> syntax error, unexpected token "=", expecting ")"
+#0 D:\Xampp 8.0\htdocs\Futsal\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Admin/index')
+#1 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Admin/index')
+#2 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-04 01:31:13 --> syntax error, unexpected token "=", expecting ")"
+#0 D:\Xampp 8.0\htdocs\Futsal\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Admin/index')
+#1 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Admin/index')
+#2 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-04 01:57:51 --> Undefined property: stdClass::$nama_pelanggan
+#0 D:\Xampp 8.0\htdocs\Futsal\app\Views\Admin\vprint.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Xampp 8.0\\ht...', 12)
+#1 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(210): include('D:\\Xampp 8.0\\ht...')
+#2 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Xampp 8.0\htdocs\Futsal\system\Common.php(1089): CodeIgniter\View\View->render('Admin/vprint', Array, true)
+#4 D:\Xampp 8.0\htdocs\Futsal\app\Controllers\Admin.php(120): view('Admin/vprint', Array)
+#5 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\Admin->print('8')
+#6 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-04 02:00:18 --> Undefined property: stdClass::$jam_masuk
+#0 D:\Xampp 8.0\htdocs\Futsal\app\Views\Admin\vprint.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Xampp 8.0\\ht...', 13)
+#1 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(210): include('D:\\Xampp 8.0\\ht...')
+#2 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Xampp 8.0\htdocs\Futsal\system\Common.php(1089): CodeIgniter\View\View->render('Admin/vprint', Array, true)
+#4 D:\Xampp 8.0\htdocs\Futsal\app\Controllers\Admin.php(120): view('Admin/vprint', Array)
+#5 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\Admin->print('8')
+#6 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-04 02:18:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL' at line 5
+CRITICAL - 2022-07-04 02:18:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL' at line 5
+#0 D:\Xampp 8.0\htdocs\Futsal\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Xampp 8.0\htdocs\Futsal\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Xampp 8.0\htdocs\Futsal\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Xampp 8.0\htdocs\Futsal\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Xampp 8.0\htdocs\Futsal\app\Models\Model_LR.php(39): CodeIgniter\Database\BaseBuilder->getWhere('')
+#5 D:\Xampp 8.0\htdocs\Futsal\app\Controllers\User.php(55): App\Models\Model_LR->getdatahistory()
+#6 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\User->orderhistory()
+#7 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-07-04 02:20:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL' at line 5
+CRITICAL - 2022-07-04 02:20:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL' at line 5
+#0 D:\Xampp 8.0\htdocs\Futsal\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Xampp 8.0\htdocs\Futsal\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Xampp 8.0\htdocs\Futsal\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Xampp 8.0\htdocs\Futsal\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Xampp 8.0\htdocs\Futsal\app\Models\Model_LR.php(39): CodeIgniter\Database\BaseBuilder->getWhere('')
+#5 D:\Xampp 8.0\htdocs\Futsal\app\Controllers\User.php(55): App\Models\Model_LR->getdatahistory()
+#6 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\User->orderhistory()
+#7 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-04 02:21:26 --> Invalid file: Admin/orderhistory.php
+#0 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/orderhist...')
+#1 D:\Xampp 8.0\htdocs\Futsal\system\Common.php(1089): CodeIgniter\View\View->render('Admin/orderhist...', Array, true)
+#2 D:\Xampp 8.0\htdocs\Futsal\app\Controllers\User.php(56): view('Admin/orderhist...', Array)
+#3 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\User->orderhistory()
+#4 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-04 02:32:34 --> syntax error, unexpected token "=>", expecting ")"
+#0 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\Xampp 8.0\htdocs\Futsal\system\Common.php(1089): CodeIgniter\View\View->render('user/orderhisto...', Array, true)
+#2 D:\Xampp 8.0\htdocs\Futsal\app\Controllers\User.php(56): view('user/orderhisto...', Array)
+#3 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\User->orderhistory()
+#4 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-04 02:33:27 --> syntax error, unexpected token "=>", expecting ")"
+#0 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\Xampp 8.0\htdocs\Futsal\system\Common.php(1089): CodeIgniter\View\View->render('user/orderhisto...', Array, true)
+#2 D:\Xampp 8.0\htdocs\Futsal\app\Controllers\User.php(56): view('user/orderhisto...', Array)
+#3 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\User->orderhistory()
+#4 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-04 02:34:00 --> Undefined variable $session
+#0 D:\Xampp 8.0\htdocs\Futsal\app\Views\User\orderhistory.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Xampp 8.0\\ht...', 20)
+#1 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(210): include('D:\\Xampp 8.0\\ht...')
+#2 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Xampp 8.0\htdocs\Futsal\system\Common.php(1089): CodeIgniter\View\View->render('user/orderhisto...', Array, true)
+#4 D:\Xampp 8.0\htdocs\Futsal\app\Controllers\User.php(56): view('user/orderhisto...', Array)
+#5 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\User->orderhistory()
+#6 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-04 02:36:34 --> syntax error, unexpected token "?"
+#0 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\Xampp 8.0\htdocs\Futsal\system\Common.php(1089): CodeIgniter\View\View->render('user/orderhisto...', Array, true)
+#2 D:\Xampp 8.0\htdocs\Futsal\app\Controllers\User.php(56): view('user/orderhisto...', Array)
+#3 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\User->orderhistory()
+#4 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-07-04 02:37:06 --> Table 'futsal.users' doesn't exist
+CRITICAL - 2022-07-04 02:37:06 --> Table 'futsal.users' doesn't exist
+#0 D:\Xampp 8.0\htdocs\Futsal\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Xampp 8.0\htdocs\Futsal\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Xampp 8.0\htdocs\Futsal\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Xampp 8.0\htdocs\Futsal\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Xampp 8.0\htdocs\Futsal\app\Views\User\orderhistory.php(20): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(210): include('D:\\Xampp 8.0\\ht...')
+#6 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\Xampp 8.0\htdocs\Futsal\system\Common.php(1089): CodeIgniter\View\View->render('user/orderhisto...', Array, true)
+#8 D:\Xampp 8.0\htdocs\Futsal\app\Controllers\User.php(56): view('user/orderhisto...', Array)
+#9 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\User->orderhistory()
+#10 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#11 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-07-04 02:37:32 --> Column 'kd_user' in where clause is ambiguous
+CRITICAL - 2022-07-04 02:37:32 --> Column 'kd_user' in where clause is ambiguous
+#0 D:\Xampp 8.0\htdocs\Futsal\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Xampp 8.0\htdocs\Futsal\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Xampp 8.0\htdocs\Futsal\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Xampp 8.0\htdocs\Futsal\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Xampp 8.0\htdocs\Futsal\app\Views\User\orderhistory.php(20): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(210): include('D:\\Xampp 8.0\\ht...')
+#6 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\Xampp 8.0\htdocs\Futsal\system\Common.php(1089): CodeIgniter\View\View->render('user/orderhisto...', Array, true)
+#8 D:\Xampp 8.0\htdocs\Futsal\app\Controllers\User.php(56): view('user/orderhisto...', Array)
+#9 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\User->orderhistory()
+#10 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#11 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-07-04 02:38:16 --> Column 'kd_user' in where clause is ambiguous
+CRITICAL - 2022-07-04 02:38:16 --> Column 'kd_user' in where clause is ambiguous
+#0 D:\Xampp 8.0\htdocs\Futsal\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Xampp 8.0\htdocs\Futsal\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Xampp 8.0\htdocs\Futsal\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Xampp 8.0\htdocs\Futsal\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Xampp 8.0\htdocs\Futsal\app\Views\User\orderhistory.php(20): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(210): include('D:\\Xampp 8.0\\ht...')
+#6 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\Xampp 8.0\htdocs\Futsal\system\Common.php(1089): CodeIgniter\View\View->render('user/orderhisto...', Array, true)
+#8 D:\Xampp 8.0\htdocs\Futsal\app\Controllers\User.php(56): view('user/orderhisto...', Array)
+#9 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\User->orderhistory()
+#10 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#11 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-07-04 02:39:32 --> syntax error, unexpected token "=", expecting ")"
+#0 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\Xampp 8.0\htdocs\Futsal\system\Common.php(1089): CodeIgniter\View\View->render('user/orderhisto...', Array, true)
+#2 D:\Xampp 8.0\htdocs\Futsal\app\Controllers\User.php(56): view('user/orderhisto...', Array)
+#3 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\User->orderhistory()
+#4 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-07-04 02:40:40 --> Column 'kd_user' in where clause is ambiguous
+CRITICAL - 2022-07-04 02:40:40 --> Column 'kd_user' in where clause is ambiguous
+#0 D:\Xampp 8.0\htdocs\Futsal\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Xampp 8.0\htdocs\Futsal\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Xampp 8.0\htdocs\Futsal\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Xampp 8.0\htdocs\Futsal\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Xampp 8.0\htdocs\Futsal\app\Views\User\orderhistory.php(20): CodeIgniter\Database\BaseBuilder->getWhere('kd_user', 3)
+#5 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(210): include('D:\\Xampp 8.0\\ht...')
+#6 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\Xampp 8.0\htdocs\Futsal\system\Common.php(1089): CodeIgniter\View\View->render('user/orderhisto...', Array, true)
+#8 D:\Xampp 8.0\htdocs\Futsal\app\Controllers\User.php(56): view('user/orderhisto...', Array)
+#9 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\User->orderhistory()
+#10 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#11 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-07-04 02:40:48 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+#0 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(210): include()
+#1 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Xampp 8.0\htdocs\Futsal\system\Common.php(1089): CodeIgniter\View\View->render('user/orderhisto...', Array, true)
+#3 D:\Xampp 8.0\htdocs\Futsal\app\Controllers\User.php(56): view('user/orderhisto...', Array)
+#4 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\User->orderhistory()
+#5 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-04 02:46:43 --> Call to a member function getRow() on array
+#0 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(210): include()
+#1 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Xampp 8.0\htdocs\Futsal\system\Common.php(1089): CodeIgniter\View\View->render('user/orderhisto...', Array, true)
+#3 D:\Xampp 8.0\htdocs\Futsal\app\Controllers\User.php(56): view('user/orderhisto...', Array)
+#4 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\User->orderhistory()
+#5 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-04 02:46:53 --> Call to a member function getResult() on array
+#0 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(210): include()
+#1 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Xampp 8.0\htdocs\Futsal\system\Common.php(1089): CodeIgniter\View\View->render('user/orderhisto...', Array, true)
+#3 D:\Xampp 8.0\htdocs\Futsal\app\Controllers\User.php(56): view('user/orderhisto...', Array)
+#4 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\User->orderhistory()
+#5 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-04 02:47:38 --> syntax error, unexpected token ">", expecting end of file
+#0 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\Xampp 8.0\htdocs\Futsal\system\Common.php(1089): CodeIgniter\View\View->render('user/orderhisto...', Array, true)
+#2 D:\Xampp 8.0\htdocs\Futsal\app\Controllers\User.php(56): view('user/orderhisto...', Array)
+#3 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\User->orderhistory()
+#4 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-04 02:47:46 --> Call to a member function getResult() on array
+#0 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(210): include()
+#1 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Xampp 8.0\htdocs\Futsal\system\Common.php(1089): CodeIgniter\View\View->render('user/orderhisto...', Array, true)
+#3 D:\Xampp 8.0\htdocs\Futsal\app\Controllers\User.php(56): view('user/orderhisto...', Array)
+#4 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\User->orderhistory()
+#5 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-04 02:47:54 --> Call to a member function getResults() on array
+#0 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(210): include()
+#1 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Xampp 8.0\htdocs\Futsal\system\Common.php(1089): CodeIgniter\View\View->render('user/orderhisto...', Array, true)
+#3 D:\Xampp 8.0\htdocs\Futsal\app\Controllers\User.php(56): view('user/orderhisto...', Array)
+#4 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\User->orderhistory()
+#5 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-04 02:49:00 --> Call to a member function getResult() on array
+#0 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(210): include()
+#1 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Xampp 8.0\htdocs\Futsal\system\Common.php(1089): CodeIgniter\View\View->render('user/orderhisto...', Array, true)
+#3 D:\Xampp 8.0\htdocs\Futsal\app\Controllers\User.php(56): view('user/orderhisto...', Array)
+#4 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\User->orderhistory()
+#5 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-04 02:49:56 --> Call to a member function getRow() on array
+#0 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(210): include()
+#1 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Xampp 8.0\htdocs\Futsal\system\Common.php(1089): CodeIgniter\View\View->render('user/orderhisto...', Array, true)
+#3 D:\Xampp 8.0\htdocs\Futsal\app\Controllers\User.php(56): view('user/orderhisto...', Array)
+#4 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\User->orderhistory()
+#5 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-04 02:50:50 --> Unclosed '{' on line 21
+#0 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\Xampp 8.0\htdocs\Futsal\system\Common.php(1089): CodeIgniter\View\View->render('user/orderhisto...', Array, true)
+#2 D:\Xampp 8.0\htdocs\Futsal\app\Controllers\User.php(56): view('user/orderhisto...', Array)
+#3 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\User->orderhistory()
+#4 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-04 02:50:59 --> syntax error, unexpected token "}", expecting "," or ";"
+#0 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\Xampp 8.0\htdocs\Futsal\system\Common.php(1089): CodeIgniter\View\View->render('user/orderhisto...', Array, true)
+#2 D:\Xampp 8.0\htdocs\Futsal\app\Controllers\User.php(56): view('user/orderhisto...', Array)
+#3 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\User->orderhistory()
+#4 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-04 02:54:56 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+#0 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(210): include()
+#1 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Xampp 8.0\htdocs\Futsal\system\Common.php(1089): CodeIgniter\View\View->render('user/orderhisto...', Array, true)
+#3 D:\Xampp 8.0\htdocs\Futsal\app\Controllers\User.php(56): view('user/orderhisto...', Array)
+#4 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\User->orderhistory()
+#5 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-04 02:57:52 --> Undefined variable $row
+#0 D:\Xampp 8.0\htdocs\Futsal\app\Views\User\orderhistory.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Xampp 8.0\\ht...', 23)
+#1 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(210): include('D:\\Xampp 8.0\\ht...')
+#2 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Xampp 8.0\htdocs\Futsal\system\Common.php(1089): CodeIgniter\View\View->render('user/orderhisto...', Array, true)
+#4 D:\Xampp 8.0\htdocs\Futsal\app\Controllers\User.php(56): view('user/orderhisto...', Array)
+#5 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\User->orderhistory()
+#6 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-04 02:58:06 --> Attempt to read property "nama_lengkap" on null
+#0 D:\Xampp 8.0\htdocs\Futsal\app\Views\User\orderhistory.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Xampp 8.0\\ht...', 23)
+#1 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(210): include('D:\\Xampp 8.0\\ht...')
+#2 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Xampp 8.0\htdocs\Futsal\system\Common.php(1089): CodeIgniter\View\View->render('user/orderhisto...', Array, true)
+#4 D:\Xampp 8.0\htdocs\Futsal\app\Controllers\User.php(56): view('user/orderhisto...', Array)
+#5 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\User->orderhistory()
+#6 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-04 02:58:41 --> Attempt to read property "kd_user" on null
+#0 D:\Xampp 8.0\htdocs\Futsal\app\Views\User\orderhistory.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Xampp 8.0\\ht...', 23)
+#1 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(210): include('D:\\Xampp 8.0\\ht...')
+#2 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Xampp 8.0\htdocs\Futsal\system\Common.php(1089): CodeIgniter\View\View->render('user/orderhisto...', Array, true)
+#4 D:\Xampp 8.0\htdocs\Futsal\app\Controllers\User.php(56): view('user/orderhisto...', Array)
+#5 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\User->orderhistory()
+#6 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-04 03:05:01 --> Attempt to read property "nama_lengkap" on array
+#0 D:\Xampp 8.0\htdocs\Futsal\app\Views\User\orderhistory.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Xampp 8.0\\ht...', 23)
+#1 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(210): include('D:\\Xampp 8.0\\ht...')
+#2 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Xampp 8.0\htdocs\Futsal\system\Common.php(1089): CodeIgniter\View\View->render('user/orderhisto...', Array, true)
+#4 D:\Xampp 8.0\htdocs\Futsal\app\Controllers\User.php(50): view('user/orderhisto...')
+#5 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\User->orderhistory()
+#6 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-04 03:10:31 --> syntax error, unexpected token "<", expecting end of file
+#0 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\Xampp 8.0\htdocs\Futsal\system\Common.php(1089): CodeIgniter\View\View->render('user/orderhisto...', Array, true)
+#2 D:\Xampp 8.0\htdocs\Futsal\app\Controllers\User.php(50): view('user/orderhisto...')
+#3 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\User->orderhistory()
+#4 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-04 03:11:06 --> syntax error, unexpected token "<", expecting end of file
+#0 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\Xampp 8.0\htdocs\Futsal\system\Common.php(1089): CodeIgniter\View\View->render('user/orderhisto...', Array, true)
+#2 D:\Xampp 8.0\htdocs\Futsal\app\Controllers\User.php(50): view('user/orderhisto...')
+#3 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\User->orderhistory()
+#4 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-04 03:16:54 --> Attempt to read property "kd_sewa" on array
+#0 D:\Xampp 8.0\htdocs\Futsal\app\Views\User\orderhistory.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Xampp 8.0\\ht...', 44)
+#1 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(210): include('D:\\Xampp 8.0\\ht...')
+#2 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Xampp 8.0\htdocs\Futsal\system\Common.php(1089): CodeIgniter\View\View->render('user/orderhisto...', Array, true)
+#4 D:\Xampp 8.0\htdocs\Futsal\app\Controllers\User.php(50): view('user/orderhisto...')
+#5 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\User->orderhistory()
+#6 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

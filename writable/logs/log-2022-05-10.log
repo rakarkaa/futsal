@@ -1,0 +1,1 @@
+ERROR - 2022-05-10 04:50:57 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: No such host is known. 

@@ -1,0 +1,12 @@
+CRITICAL - 2022-05-19 21:58:32 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getNumRows()
+#0 C:\xampp7\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\Controller->send()
+#1 C:\xampp7\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controller))
+#2 C:\xampp7\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-19 22:06:48 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAll()
+#0 C:\xampp7\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\Controller->send()
+#1 C:\xampp7\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controller))
+#2 C:\xampp7\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

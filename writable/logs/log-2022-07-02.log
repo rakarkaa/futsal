@@ -1,0 +1,35 @@
+CRITICAL - 2022-07-02 12:58:43 --> Undefined property: stdClass::$kd_sewa
+#0 D:\Xampp 8.0\htdocs\Futsal\app\Views\Admin\daftaruser.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Xampp 8.0\\ht...', 156)
+#1 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(210): include('D:\\Xampp 8.0\\ht...')
+#2 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Xampp 8.0\htdocs\Futsal\system\Common.php(1089): CodeIgniter\View\View->render('Admin/daftaruse...', Array, true)
+#4 D:\Xampp 8.0\htdocs\Futsal\app\Controllers\Admin.php(73): view('Admin/daftaruse...', Array)
+#5 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\Admin->daftaruser()
+#6 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-02 13:00:47 --> Undefined property: stdClass::$kd_sewa
+#0 D:\Xampp 8.0\htdocs\Futsal\app\Views\Admin\daftaruser.php(155): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Xampp 8.0\\ht...', 155)
+#1 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(210): include('D:\\Xampp 8.0\\ht...')
+#2 D:\Xampp 8.0\htdocs\Futsal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Xampp 8.0\htdocs\Futsal\system\Common.php(1089): CodeIgniter\View\View->render('Admin/daftaruse...', Array, true)
+#4 D:\Xampp 8.0\htdocs\Futsal\app\Controllers\Admin.php(73): view('Admin/daftaruse...', Array)
+#5 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\Admin->daftaruser()
+#6 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-02 13:07:13 --> Unknown column 'lap' in 'field list'
+CRITICAL - 2022-07-02 13:07:13 --> Unknown column 'lap' in 'field list'
+#0 D:\Xampp 8.0\htdocs\Futsal\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `la...', 0)
+#1 D:\Xampp 8.0\htdocs\Futsal\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `la...')
+#2 D:\Xampp 8.0\htdocs\Futsal\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `la...')
+#3 D:\Xampp 8.0\htdocs\Futsal\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `la...', Array, false)
+#4 D:\Xampp 8.0\htdocs\Futsal\app\Models\Model_LR.php(22): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Xampp 8.0\htdocs\Futsal\app\Controllers\Admin.php(56): App\Models\Model_LR->savedatalapangan(Array)
+#6 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(832): App\Controllers\Admin->tambahlapangan()
+#7 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 D:\Xampp 8.0\htdocs\Futsal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Xampp 8.0\htdocs\Futsal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
